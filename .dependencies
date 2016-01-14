@@ -1,0 +1,26 @@
+git:
+    problems:
+        url: https://github.com/getgrav/grav-plugin-problems
+        path: user/plugins/problems
+        branch: master
+    error:
+        url: https://github.com/getgrav/grav-plugin-error
+        path: user/plugins/error
+        branch: master  
+    woo:
+        url: https://github.com/getgrav/grav-theme-woo
+        path: user/themes/woo
+        branch: master
+links:
+    problems:
+        src: grav-plugin-problems
+        path: user/plugins/problems
+        scm: github
+    error:
+        src: grav-plugin-error
+        path: user/plugins/error
+        scm: github
+    woo:
+        src: grav-theme-woo
+        path: user/themes/woo
+        scm: github
