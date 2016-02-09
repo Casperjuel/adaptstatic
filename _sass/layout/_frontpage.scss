@@ -18,10 +18,9 @@
     }
 
     > .inner {
-      @include transform(translateY(-50%));
       @include span-columns(8 of 12);
       @include shift(2);
-      @include omega();
+      @include transform(translateY(-50%));
       position: absolute;
       top: 50%;
       z-index: 10;
@@ -50,4 +49,19 @@
       object-fit: cover;
     }
   }
+}
+
+.case-teasers {
+  @include outer-container;
+  margin-top: -70px;
+  z-index: 10;
+  position: relative;
+
+    > div {
+      @include span-columns(3 of 12);
+      @include omega(4n);
+      height: 320px;
+      background-color: grey;
+      margin-bottom: 20px;
+    }
 }
