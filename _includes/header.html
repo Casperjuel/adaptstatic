@@ -1,0 +1,13 @@
+<header>
+
+  <span class='big'>{{ site.title }}</span>
+  <span class='small'>{{ site.subtitle }}</span>
+
+  <div id="nav">
+  {% for item in site.nav %}
+    <a href="{{ item.href}}">{{ item.title }}</a>
+    {% if forloop.last %}  {% else %} • {% endif %}
+  {% endfor %}
+  </div>
+
+</header>
