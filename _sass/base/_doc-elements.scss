@@ -1,11 +1,13 @@
 // Document body
 // ------------------------
+
 body {
   background-color: $base-background-color;
   color: $base-font-color;
 
   font-size: $base-font-size;
   line-height: $base-line-height;
+  font-family: $base-font-family;
 }
 
 // Headings

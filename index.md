@@ -1,9 +1,8 @@
 ---
 layout: frontpage
-title:  Forside
+title:  Adapt og Unity udvikler verdens største online spil community - skal vi også hjælpe dig?
 top_image : bg.jpg
+logo : logo.svg
 ---
-
-<img src="img/{{ page.top_image }}">
 
 Adapt A/S

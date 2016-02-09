@@ -1,1 +1,53 @@
-.front {}
+.frontpage {
+
+  .intro {
+    position: relative;
+    height: 80vh;
+
+    &:after {
+      display: block;
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      opacity: 0.6;
+      background-color: #1e5c61;
+    }
+
+    > .inner {
+      @include transform(translateY(-50%));
+      @include span-columns(8 of 12);
+      @include shift(2);
+      @include omega();
+      position: absolute;
+      top: 50%;
+      z-index: 10;
+      text-align: center;
+      color: #fff;
+
+      .logo {
+        width: 240px;
+        height: auto;
+        margin-bottom: 60px;
+      }
+
+      h1 {
+        font-size: rem(42);
+        margin-bottom: 40px;
+      }
+
+      a {
+        @include button;
+      }
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

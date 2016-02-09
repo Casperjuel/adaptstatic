@@ -1,0 +1,14 @@
+@mixin button($size: medium) {
+  background-color: $blue;
+  display: inline-block;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+
+  @if $size = medium {
+    min-width: 225px;
+    padding: 10px 10px;
+    font-size: rem(20);
+  }
+}

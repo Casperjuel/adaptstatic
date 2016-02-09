@@ -1,7 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
 // Variables
 // ------------------------
-
-$white: lighten(#E6DED3,14%);
+$white: #f2f2f2;
 $black: #222;
 $grey: #888;
 
@@ -22,7 +23,7 @@ $primary:$blue;
 $base-background-color: $white;
 $base-font-color: #333;
 
-$base-font-family: helvetica;
+$base-font-family: 'Open Sans', sans-serif;;
 $base-font-size: 1em;
 $base-line-height: 1.5;
 

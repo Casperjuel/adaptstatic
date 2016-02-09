@@ -20,15 +20,6 @@
 /* Comment here
 ---------------------*/
 
-.inner {
-  @include outer-container($max-outer-width);
-
-  position: relative;
-  width: 100%;
-  padding: 20px;
-  overflow: hidden;
-}
-
 html {}
 
 body {

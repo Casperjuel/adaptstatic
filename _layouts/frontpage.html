@@ -3,13 +3,25 @@
 
 {% include head.html %}
 
-<body>
+<body class="frontpage">
 
-<div id="content">
-  {{ content }}
-</div>
+  <div id="content">
 
-{% include footer.html %}
+  <div class="intro">
+    <div class="inner">
+      <img class="logo" src="img/{{ page.logo }}">
+
+      <h1>{{ page.title }}</h1>
+
+      <a href="#">Læs mere</a>
+    </div>
+    <img src="img/{{ page.top_image }}">
+  </div>
+
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
 
 </body>
 </html>
